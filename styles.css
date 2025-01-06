@@ -16,6 +16,7 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
+  padding: 5rem
 }
 .content-container {
   justify-self: center;
@@ -37,7 +38,7 @@ body {
 }
 .testimonial-container:first-of-type {
   background-color: var(--moderate-violet);
-  background-image: url("../images/bg-pattern-quotation.svg");
+  background-image: url("images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position: 90% 0%;
   background-size: 35%;
